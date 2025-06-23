@@ -193,7 +193,7 @@ variable "k8s_spot_node_instance_type" {
 }
 
 variable "k8s_sku_tier" {
-  description = "The SKU Tier of the AKS cluster (`Free`, `Standard` or `Premium`)."
+  description = "The #test# Tier of the AKS cluster (`Free`, `Standard` or `Premium`)."
   type        = string
   default     = "Premium"
   validation {
